@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 <meta charset ="utf-8">
-<title>DRUGGENE</title>
+<title>PLAZAPAGE</title>
 <meta name ="viewport" content = "width=device-width, initial-scale=1.0">
 <link type="text/css" rel="stylesheet" href="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap-combined.no-icons.min.css">
 <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
@@ -12,10 +12,10 @@
 <script src ="https://d396qusza40orc.cloudfront.net/startup%2Fcode%2Fbootstrap.js"></script>
 
 <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
-<link href="http://fonts.gooleapis.com/css?family=Open+Sans:300italic, 400italic,600italic,700italic,300,400,600,700,800" rel+"stylesheet" type="text/css">
+<link href="http://fonts.gooleapis.com/css?family=Open+Sans:300italic, 400itali5c,600italic,700italic,300,400,600,700,800" rel+"stylesheet" type="text/css">
 <style type ="text/css">
 /* Large desktop */
-@media(min-width:980px) {
+@media(min-width:980px){
 body{
 padding-top:60px;
 }
@@ -100,31 +100,55 @@ color: #ccccff;
 <body>
 <div class ="navbar navbar-inverse  navbar-fixed-top">
 <div class = "navbar-inner">
-<div class="container">
+<div class="container-fluid">
 <button type ="button" class ="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
 <span class ="icon-bar"></span>
 </button>
-<a class = "brand" href="#">SHOPSHOOD</a>
+<a class = "brand" href="#">PLAZAPAGE</a>
 <div class="nav-collapse collapse">
 <ul class="nav">
-<li class="active"><a href-"#">Home</li>
-<li><a href="#about">About</a></li>
-<li><a ref ="#contact">Contact</a></li>
+<li class="active"><a href-"#"><i class="icon-home">Home</i></a></li>
+<li><a href="#about"><i class="icon-user">About</i></a></li>
+<li><a ref ="#contact"><i class="icon-envelope">Contact</i></a></li>
 </ul>
 </div><!--/.nav collapse -->
 </div>
 </div>
 </div>
-<div class="container">
+<div class="container-fluid">
+<div id="homecarousel" class="carousel slide">
+<ol class="carousel-indicators">
+<li data-target="#homecarousel" data-slide-to ="0" class="active"></li>
+<li data-target="#homecarousel" data-slide-to="1"></li>
+<li data-target="#homecarousel" data-slide-to="2"></li>
+</ol>
+<!-- Carousel items -->
+<div class="carousel-inner">
+<div class="active item">
+<div class="hero-unit">
+<h1>PLAZAPAGE</h1>
+<p><a class="btn btn-primary btn-large">
+Socialize</a></p>
+</div>
+<div class="item"><div class="hero-unit">
+
+</div></div>
+<div class="item"></div>
+<!-- Carousel nav -->
+<a class="carousel-control left" href="#homecarousel" data-slide="prev">&lsaquo;</a>
+<a class="carousel-control right" href="#homecarousel" data-slide="next">&rsaquo;</a>
+</div>
+</div>
+<div class="container-fluid">
 <div class="row-fluid heading">
 <div class ="span12">
-<h1>SHOPSHOOD</h1>
+<h1>PLAZAPAGE</h1>
 </div>
 </div>
 <div class ="row-fluid subheading"><div class="span12">
-<p class="lead">The right drug solution</p>
+<p class="lead">Plaza Productive Social</p>
 </div>
 </div>
 <div class="row-fluid pitch">
@@ -132,23 +156,24 @@ color: #ccccff;
 <img class="img-polaroid" src="http://placehold.it/480x300">
 </div>
 <!-- 'actions' div to contain statistics, order and share buttons --> 
-<div class="span5 actions">
+<div class="span5 actions thumbnail">
+<img class="img-rounded" src="plazapagehome1.png" />
 <div class ="span8 offset2">
 <div class="statistics">
 <div class="span4">
 <!-- linediv-l and linediv-r give dividing lines that look different in horizontal and veritcal layouts, illustrating media queries -->
 <div class="linediv-l">
-<h3>1000</h3><p>backers</p>
+<h3>0</h3><p>backers</p>
 </div>
 </div>
 <div class="span4">
 <div class="linediv-c">
-<h3>$6000</h3><p>of $10,000</p> 
+<h3>$0</h3><p>of $10,000</p> 
 </div>
 </div>
 <div class="span4">
 <div class="linediv-r">
-<h3>10</h3> <p> days left</p>
+<h3>30</h3> <p> days left</p>
 </div>
 </div>
 </div>
@@ -156,8 +181,8 @@ color: #ccccff;
 <div class="span10 offset1">
 <!-- Bootstrap progress bar -->
 <div class="thermometer progress active">
-<div class="bar bar-success" style="width: 60%;"></div>
-<div class="bar bar-warning" style="width: 40%;"></div>
+<div class="bar bar-success progress-striped active" style="width: 1%;"></div>
+<div class="bar bar-warning progress-striped active" style="width: 99%;"></div>
 </div>
 </div>
 <div class="span6 offset3 order">
@@ -173,7 +198,7 @@ color: #ccccff;
 <!-- Marketing Part -->
 <div class="row-fluid section1">
 <div class="span5 offset1 asset">
-<img class="img-polaroid" src ="http://placehold.it/480x300">
+<img class="img-polaroid" src ="data:image/png;base64,plazapagehome1.png" />
 </div>
 <div class="span5 copy">
 <p>Small business owners have very little time to socialize. sBOs have not enough time running their businesses hence this need for a social website that combines productivity tools and socializing into one.  </p>
@@ -182,12 +207,12 @@ color: #ccccff;
 
 <div class="row-fluid section2">
 <div class="span5 offset1 copy copy-right">
-<p><ul><li>Features you would appreciate in Shopshood:
-1. Current : News from the neihborhood
-2. Multivertising : A shopshood page that combines keywords for all business. A search for one of the businesses in a particular location will lead to all the businesses in shopshood being displayed.
-3. Credible Referrals : Choose services that other business owners have tried and are happy with 
-4. Co Op Opportunities: 
-5. Complete the puzzle : Become part of the neighborhood as a whole.</li></ul></p>
+<p><ul><h5>In PlazaPage you have :</h5>
+<li>1. Current : News from the neighborhood</li>
+<li>2. Multivertising : A shopshood page that combines keywords for all business. A search for one of the businesses in a particular location will lead to all the businesses in shopshood being displayed.</li>
+<li>3. Credible Referrals : Choose services that other business owners have tried and are happy with </li>
+<li>4. Co Op Opportunities: </li>
+<li>5. Complete the puzzle : Become part of the neighborhood as a whole.</li></ul></p>
 </div>
 <div class="span5 asset">
 <img class="img-polaroid" src="http://placehold.it/480x300">
