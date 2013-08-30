@@ -11,7 +11,10 @@ var app = express();
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 app.set('port', process.env.PORT || 8080);
-app.use(express.static(__dirname+'/public'));
+
+app.use(express.static(__dirname+'/public'))
+
+>>>>>>> ebb492772094606c7f7473228d77739384cf4d88
 // Render homepage (note trailing slash): example.com/
 app.get('/', function(request, response) {
   var data = fs.readFileSync('index.html').toString();
