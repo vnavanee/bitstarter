@@ -15,6 +15,7 @@ app.use(express.static(__dirname+'/public'));
 
 app.use(express.static(__dirname+'/public'));
 
+
 // Render homepage (note trailing slash): example.com/
 app.get('/', function(request, response) {
   var data = fs.readFileSync('index.html').toString();
